@@ -1,0 +1,28 @@
+.container-fluid {
+  display: flex;
+
+  overflow-y: auto;
+}
+
+.card-body {
+  height: auto;
+  background-color: #c51b3d2c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.card-text {
+  text-align: left;
+  font-size: 13px;
+}
+span {
+  font-weight: 700;
+}
+
+.card {
+  margin: 10px 90px;
+}

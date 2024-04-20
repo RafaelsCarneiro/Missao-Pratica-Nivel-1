@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  overflow-y: auto;
+}
+
+header {
+  height: 60px;
+  background-color: #c51b373b;
+  font-weight: 700;
+}
+
+main {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+footer {
+  max-height: 25px;
+  background-color: #c51b373b;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-item.active {
+  color: #fff;
+}
+.row h1 {
+  padding: 35px 0px;
+}
+.form-group {
+  padding-left: 20px;
+}
+.form-group label {
+  font-size: 20px;
+  font-weight: 700;
+}
+.container-fluid {
+  background-color: #c51b3d2c;
+}
+
+#container {
+  display: flex;
+  padding-top: 150px;
+  height: 450px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.conteudo-principal {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.conteudo-principal h2 {
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+
+.text-principal p {
+  padding-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+}
